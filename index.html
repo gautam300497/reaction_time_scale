@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reaction Time Scale</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Reaction Time Test</h1>
-    <div id="game-area">
-        <p>Wait for Green...</p>
+    <div id="game-container">
+        <h1>Reaction Time Test</h1>
+        <div id="box" onclick="handleButtonClick()">Click to Start</div>
+        <p id="result">Your time: -- ms</p>
     </div>
     <script src="script.js"></script>
 </body>
